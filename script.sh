@@ -3,7 +3,7 @@
 
 function count {
 	cat groningen.html |\
-	grep -w 'de' |\
+	grep -wi 'de' |\
 	wc -l
 }
 
